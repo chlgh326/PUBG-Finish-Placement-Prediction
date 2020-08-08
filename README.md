@@ -14,6 +14,8 @@
 
 
 ### 데이터 분석
+- 코드 : https://www.kaggle.com/chimiro/star2
+
 ##### Table of contents
 * [Loading Data](#1) 
 * [Initial Exploration](#2) 
