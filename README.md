@@ -1,24 +1,30 @@
-# PUBG-Finish-Placement-Prediction
+# 배틀그라운드 게임 빅데이터와 AI를 활용한 유저 순위 예측 알고리즘 개발
 
-### Summary
-PlayerUnknown's BattleGrounds (PUBG) has enjoyed massive popularity. With over 50 million copies sold, it's the fifth best selling game of all time, and has millions of active monthly players.
 
-The team at PUBG has made official game data available for the public to explore and scavenge outside of "The Blue Circle." This competition is not an official or affiliated PUBG site - Kaggle collected data made possible through the PUBG Developer API.
+## 개요
 
-### Data collection
-https://www.kaggle.com/c/pubg-finish-placement-prediction
+- PUBG 배틀그라운드의 유저 행동 데이터로 게임 경기에서의 유저의 순위를 예측합니다.
 
-### My prediction model
-https://www.kaggle.com/chimiro/gwangho-choi
 
-Here's how I worked in the competition.
+## 주최/주관
 
-1. Load Data
-2. Initial Exploration
-3. Data Cleaning
-4. Feature Engineering
-5. Methods for predicting PUBG Cheaters
-6. Pre-processing pipeline
-7. Feature importances of Tree models
-8. Prediction model based on deep learning
-9. Kaggle Submission
+- 주최 : Kaggle
+
+- 참조 : https://www.kaggle.com/c/pubg-finish-placement-prediction/overview
+
+
+## 데이터 분석
+#### Table of contents
+* [Loading Data](#1) 
+* [Initial Exploration](#2) 
+* [Data Cleansing](#3) 
+* [Feature engineering](#4) 
+* [Outlier Detection for PUBG Cheaters](#5) 
+* [Data Preparation (Data Cleansing + Feature Engineering)](#6)
+* [Data Partitioning](#7)
+* [Modeling - light Gradient Boosting Machine (LGBM)](#8)
+* [Feature Importance](#9)
+* [Feature selection](#10)
+* [Modeling - Multi Layer Perceptrons (MLP)](#11)
+* [Performance evaluation of MLP](#12)
+* [Submit Test Results](#13)
