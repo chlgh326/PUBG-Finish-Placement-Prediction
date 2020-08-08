@@ -14,7 +14,7 @@
 
 
 ### 데이터 분석
-- 코드 : https://www.kaggle.com/chimiro/star2
+- 코드 : https://www.kaggle.com/chimiro/gwangho-choi
 
 ##### Table of contents
 * [Loading Data](#1) 
